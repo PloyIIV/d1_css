@@ -28,7 +28,7 @@ span.highlight {
    background-color: yellow;
 }
 
-p:nth-child(1) {
+p:first-child {
    color: red;
    font-size: 12px;
 }

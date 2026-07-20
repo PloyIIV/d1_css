@@ -9,11 +9,9 @@
    Current: ALL li items including nested ones are bold.
    Fix the descendant selector to use a child selector instead.
 */
-
-/* .nav li {
+li {
   font-weight: normal;
-  color: red;
-} */
+}
 
 ul.nav > li {
   font-weight: bold;
