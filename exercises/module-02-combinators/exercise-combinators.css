@@ -10,7 +10,12 @@
    Fix the descendant selector to use a child selector instead.
 */
 
-.nav > li {
+/* .nav li {
+  font-weight: normal;
+  color: red;
+} */
+
+ul.nav > li {
   font-weight: bold;
 }
 
