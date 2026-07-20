@@ -17,8 +17,8 @@
   color: red;
 }
 
-.card--dark.card__title {
-  color: white;
+.card--dark .card__title {
+  color: rgb(102, 0, 17);
 }
 
 
@@ -29,12 +29,12 @@
    Fix: rename these generic selectors to match the BEM classes.
 */
 
-.title {
+.card__title {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.title.btn {
+.card__btn {
   font-size: 1rem;
   padding: 8px 16px;
   background: blue;
@@ -49,7 +49,7 @@
    The selector for the modifier is missing. Add it.
 */
 
-.card {
-  border: 2px solid #ccc;
+.card--active {
+  border: 2px solid #002fff;
   padding: 16px;
 }
