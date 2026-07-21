@@ -13,6 +13,8 @@
 .flex-center {
   display: flex;
   height: 200px;
+  justify-content: center;
+  align-items: center;
   border: 1px dashed #999;
 }
 
@@ -25,6 +27,7 @@
 */
 
 .flex-row {
+  display: flex;
   border: 1px dashed #999;
   padding: 8px;
 }
@@ -43,6 +46,7 @@
 */
 
 .block-link {
+  display: block;
   background: #0984e3;
   color: white;
   padding: 16px 24px;
