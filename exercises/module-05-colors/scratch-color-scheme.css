@@ -17,88 +17,15 @@
    7. .btn-secondary — background transparent, border var(--secondary), color var(--secondary)
    8. .site-footer — background var(--secondary), white text, text-align center, padding
    ============================================ */
+
 :root {
-   --primary: #00000070;
-   --secondary: #0c40b1;
-   --accent: #ffe1d3;
-   --btn-accent: #fff;
-   --bg: #09003a;
-   --bg-image: url('https://images.unsplash.com/photo-1614850523011-8f49ffc73908?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Ymx1ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
-   --text: #fffade;
-   --text2: #8fc3ff;
+  --primary: #10746b;
 }
 
-body {
-   box-sizing: border-box;
-   background-image: var(--bg-image);
-   background-color: var(--bg);
-   background-repeat: no-repeat;
-   background-size: auto;
-   color: var(--text);
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   height: 98vh;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
+p {
+  color: var(--primary);
 }
 
-.site-header {
-   background-color: var(--primary);
-   padding: 15px;
-   color: var(--text2);
-   text-align: center;
-   text-transform: uppercase;
-   border-radius: 30px;
-}
-
-.site-header a {
-   color: white;
-   text-decoration: none;
-   margin: 0 15px;
-   font-weight: 900;
-}
-
-.site-header a:hover {
-   font-weight: 900;
-   text-decoration: underline;
-   color: var(--secondary);
-}
-
-.content {
-   padding: 40px 20px;
-   max-width: 800px;
-   margin: auto;
-}
-
-.btn-primary {
-   background-color: var(--accent);
-   color: var(--secondary);
-   font-weight: 900;
-   padding: 15px 30px;
-   border: 3px solid black;
-   border-radius: 30px;
-   filter: drop-shadow(1px 1px 10px var(--secondary));
-}
-
-.btn-primary:hover {
-   background-color: var(--secondary);
-   color: var(--text);
-   cursor: pointer;
-}
-
-.btn-secondary {
-   background: transparent;
-   padding: 15px 30px;
-   border: 3px solid var(--secondary);
-   border-radius: 30px;
-   color: var(--text);
-   cursor: pointer;
-}
-
-.site-footer {
-   background-color: var(--primary);
-   color: white;
-   text-align: center;
-   padding: 10px;
-   border-radius: 30px;
+p > span {
+  color: yellow;
 }
