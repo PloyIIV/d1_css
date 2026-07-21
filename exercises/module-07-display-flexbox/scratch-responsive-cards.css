@@ -21,7 +21,7 @@
    border: 1px solid #ddd;
    border-radius: 8px;
    padding: 24px;
-   box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .service-card h3 {
